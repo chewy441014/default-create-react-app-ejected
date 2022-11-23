@@ -27,6 +27,15 @@ This will install the dependencies of the project. Next, type
 
 To start the WebpackDevServer and open the default index.html in browser, run
 >npm run start
+
+Alternatively: 
+```
+npx create-react-app my-app
+cd my-app
+npm run eject
+npm run build
+npm run start
+```
    
 ## License 
 <a name="lic"></a> 
